@@ -7,7 +7,7 @@ class Paper{
         'isStatic':false
         }
        this.radius=radius;
-       this.body=Bodies.circle(x,y,radius,options);
+       this.body=Bodies.circle(x,y,radius,option);
        World.add(world,this.body); 
     }
     display(){
